@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+:root{
+    --body-font: 'Poppins', sans-sarif;
+    --h2-font-size: 1.20rem ;
+    --h3-font-size: 1.05rem ;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 50%;
+    display: flex;
+    height: 130px;
+    width: 130px;
+
+}
+.profile__picture{
+    height: 110px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.profile__name{
+    color: aqua;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--body-font);
+    font-size: var(--h2-font-size);
+    padding-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links{
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    height: auto;
+    width: 355px;
+    border-radius: 5%;
+    margin-top: 1px;
+}
+
+.link{
+    font-family: var(--body-font);
+    font-size: var(--h3-font-size);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 40px;
+    cursor: pointer;
+    border: .7px solid;
+    border-radius: 50px;
+    
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: rgba(21, 43, 24, 0.63);
+    border-color: aqua;
+    border: 1.2px solid;
+    transition-delay: 100ms;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    
+}
+
+.king{
+    color: aqua;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    text-align: center;
+    margin-top: 3%;
+
+}
